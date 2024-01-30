@@ -1,0 +1,44 @@
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.btn {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.increase {
+  background-color: rgba(0, 128, 0, 0.76);
+}
+
+.reset {
+  background-color: hsl(200, 100%, 50%);
+  margin: 0 20px;
+}
+
+.decrease {
+  background-color: rgba(255, 0, 0, 0.568);
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.87);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(255, 255, 255, 0.3);
+  padding: 20px;
+  margin: 50px auto;
+  text-align: center;
+  max-width: 600px;
+  display: inline-block;
+}
+
+.card h1 {
+  font-size: 5rem;
+}

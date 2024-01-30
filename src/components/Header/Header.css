@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks li {
+  list-style: none;
+}
+
+.navlinks a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.navlinks a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
