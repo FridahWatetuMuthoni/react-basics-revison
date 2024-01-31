@@ -73,4 +73,30 @@ React hooks are special functions that allow functional components to use react 
 React Hooks inlcude, useState, useEffect, useContext, useReducer, useCallback and more.
 useState => useState is a react hook that allows the creattion of a stateful variable and a setter function to update its value in the virtual DOM [name setName].
 
-1:58:00
+## onChange Event Handler
+
+The onChange is an event handler that is used primarily with form elements e.g. input,textarea, select, radio.
+Triggers a function everytime the value of the input changes
+
+## UseEffect
+
+The useEffect hook is the hook that tells react to do some code when:
+
+1. The component re-renders
+2. The component mounts
+3. the state of a value
+
+useEffect(callback function, [dependencies])
+useEffect effects:
+
+1. useEffect(()=>{}) => runs after every rerender
+2. useEffect(()=>{}, []) => runs only on mount
+3. useEffect(()=>{}, [value]) => runs on mount and when value changes
+
+useEffect usecases:
+
+1. Event Listeners
+2. DOM manipulation
+3. Real time updates
+4. fetching data from an API
+5. Handles cleanup when a component unmounts
